@@ -88,3 +88,26 @@ Buat branch baru ketika ingin menggerjakan sebuah fitur atau memperbaiki bug dll
 
 7. staging
     Digunakan sebagai area pengujian kode sebelum dipindahkan ke main. Tidak semua proyek menggunakan branch ini, tetapi ini sering dipakai untuk menguji integrasi antara beberapa fitur yang digabungkan.
+
+
+## cara install
+1. git clone <link>
+2. cd <name clone>
+3. composer install
+4. git branch <name bracnh>
+5. git checkout <name Branch>
+6. git pull origin <name branch>
+7. php artisan key:generate
+8. code .
+9. buka terminal ketik cp .env.example .env
+10.  rubah .env database menjadi
+## DB_CONNECTION=mysql
+## DB_HOST=127.0.0.1
+## DB_PORT=3306
+## DB_DATABASE=<nama database bebas>
+## DB_USERNAME=root
+## DB_PASSWORD=
+12.  dan juga hapus pagar "#" diawalnya
+13.  php artisan migrate
+14.  php artisan db:seed
+15.  php artisan serve
