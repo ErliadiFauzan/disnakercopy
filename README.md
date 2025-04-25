@@ -91,12 +91,12 @@ Buat branch baru ketika ingin menggerjakan sebuah fitur atau memperbaiki bug dll
 
 
 ## cara install
-1. git clone <link>
-2. cd <name clone>
+1. git clone (link)
+2. cd (name clone)
 3. composer install
-4. git branch <name bracnh>
-5. git checkout <name Branch>
-6. git pull origin <name branch>
+4. git branch (name bracnh)
+5. git checkout (name Branch)
+6. git pull origin (name branch)
 7. php artisan key:generate
 8. code .
 9. buka terminal ketik cp .env.example .env
